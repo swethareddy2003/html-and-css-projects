@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="logo2.png" alt="">
+        <h3>Gym Time</h3>
+    </div>
+    <section class="hero">
+        <div class="one">
+            <h4>Premium Gym Equipment</h4>
+            <p>No Hassle,Free Delivery</p>
+            <img src="gymer.png" alt="">
+        </div>
+        <div class="two">
+            <form action="">
+                <input type="text" name="username" placeholder="Enter your name"><br>
+                <input type="text" name="email" placeholder="Enter your email"><br>
+                <input type="text" name="contact" placeholder="Mobile Number"><br> 
+                <input type="text" name="address" placeholder="Address"><br>
+                <div class="gender">
+                    <input type="radio" value="Male" name="gender"><label for="Male">Male</label>
+                    <input type="radio" value="Female" name="gender"><label for="Female">Female</label>
+                </div>
+                <div class="checkboxes">
+                    <div class="item"> <input type="checkbox" value="Weights" name="equipment"><label for="Weights">Weights</label></div>
+                    <div class="item"><input type="checkbox" value="Dumbells" name="equipment"><label for="Dumbells">Dumbells</label></div>
+                    <div class="item"><input type="checkbox" value="Ropes" name="equipment"><label for="Ropes">Ropes</label></div>
+                    <div class="item"><input type="checkbox" value="Tshirts" name="equipment"><label for="Tshirts">Tshirts</label></div>
+                    <div class="item"><input type="checkbox" value="Shoes" name="equipment"><label for="Shoes">Shoes</label></div>
+                </div>
+                <input type="submit" value="Book Your Equipment" class="button">
+            </form>
+        </div>
+    </section>
+    <section class="equipmentlist">
+        <h3>Get Your latest equipment</h3>
+        <div class="cards">
+            <div class="card"><img src="eqp1.png" alt=""></div>
+            <div class="card"><img src="eq9.png" alt=""></div>
+            <div class="card"><img src="6.png" alt=""></div>
+            <div class="card"><img src="5.png" alt=""></div>
+            <div class="card"><img src="eqp2.png" alt=""></div>
+            <div class="card"><img src="eqp3.png" alt=""></div>
+    </section>
+    <section class="segments">
+        <div class="segmentA">
+            <h3>Equipment</h3>
+            <img src="bag.png" alt="">
+        </div>
+        <div class="segmentB">
+            <h3>Membership</h3>
+            <img src="mem1.png" alt="">
+        </div>
+    </section>
+</body>
+</html>
