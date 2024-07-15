@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans;
+    color: rgb(22, 38, 215);
+}
+img{
+    width: 100%;
+}
+body{
+    background: #212121;
+}
+nav{
+    background: white;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.equipmentlist .cards img{
+    width: 70%;
+    height: 70%;
+    
+}
+
+@media(min-width:300px){
+    .header img{
+        height: 5vh;
+        width: 5vh;
+        margin-right: 0.8rem;
+        padding-top: none;
+        padding-bottom: none;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        padding: 1vh 0;
+    }
+    nav h3{
+        color: #212121;
+        font-weight: bolder;
+    }
+    .one h4,p{
+        text-align: center;
+        padding: 2vh 0;
+    }
+    .one h4{
+        margin-top: 1vh;
+    }
+    .one img{
+        padding-top:1vh;
+    }
+    .two{
+        background: white;
+        padding: 1.5rem;
+        width: 70%;
+        margin: 5vh auto;
+        border-radius: 15px;
+    }
+    .two label{
+        color: #212121;
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+    .two input[type="text"]{
+        border: none;
+        padding: 0.8rem;
+        outline: none;
+        border-bottom: 1px solid #212121;
+        font-style: 1.2rem;
+        width: 90%;
+
+    }
+    .two input[type="radio"],input[type="checkbox"]{
+        margin-right: 1rem;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .checkboxes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .button{
+        background: #cd7575;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        width: 90%;
+        padding: 0.9rem;
+        border-radius: 12px;
+        margin-top: 3vh;
+    }
+    .equipmentlist h3{
+        text-align: center;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card{
+        background: white;
+        border-radius: 12px;
+        padding: 2rem;
+        margin: 1rem;
+    }
+    .cards img{
+        width: 90%;
+    height: 90%;
+
+    }
+    .segmentA, .segment{
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px;
+        margin: 0.5rem;
+    }
+    .segmentA h3{
+        color: #212121;
+        text-align: center;
+        padding-top: 4vh;
+    }
+    .segmentA img{
+        height: 40vh;
+        width: 40vh;
+    }
+    .segmentB, .segment{
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px;
+        margin: 0.5rem;
+    }
+    .segmentB h3{
+        color: #212121;
+        text-align: center;
+        padding-top: 4vh;
+    }
+    .segmentB img{
+        height: 40vh;
+        width: 40vh;
+    }
+}
